@@ -5,7 +5,7 @@ import pandas
 base_url = "http://www.iba.gov.au/business/finance/business-loan/"
 urls = ['business-loan/', 'procurement-loan/', 'producer-loan/', 'start-finance-package/']
 
-# create a list called records - we will use it for pandas
+# create a list called grants_summary
 grants_summary = []
 
 for url in urls:
